@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driverclassname: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysqldb/currency_master
+    username: root
+    password: admin123

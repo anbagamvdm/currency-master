@@ -1,0 +1,13 @@
+#Active profile 
+spring:
+  profiles:
+    active: docker
+  #Application Name
+  application:
+    name: currency-master
+  enable:
+    scheduling: true
+
+prop:
+  swagger:
+    enabled: true
